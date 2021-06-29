@@ -9,11 +9,8 @@ public class BJ5532_ymj {
 			num[i] = s.nextInt();
 		}
 		
-		if(num[1]%num[3] == 0) num[1] = num[1]/num[3];
-		else num[1] = num[1] / num[3] + 1;
-		
-		if(num[2]%num[4] == 0) num[2] = num[2]/num[4];
-		else num[2] = num[2] / num[4] + 1;
+	    num[1] = num[1]/num[3] + (num[1]%num[3] == 0 ? 0:1);
+        num[2] = num[2]/num[4] + (num[2]%num[4] == 0 ? 0:1);
 		
 		if(num[1]<num[2]) num[1] = num[2];
 		
