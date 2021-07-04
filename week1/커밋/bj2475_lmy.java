@@ -2,7 +2,7 @@ package week1;
 
 import java.util.*;
 
-public class Number2 {
+public class bj2475_lmy {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

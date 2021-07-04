@@ -1,6 +1,8 @@
+package week1;
+
 import java.util.*;
 
-public class Main {
+public class bj5522_lmy {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
