@@ -2,7 +2,7 @@ package week2.커밋;
 
 import java.util.Scanner;
 
-public class bj171_lmy {
+public class bj1712_lmy {
     public static void main(String[] args) {
 
         Scanner in = new Scanner(System.in);
