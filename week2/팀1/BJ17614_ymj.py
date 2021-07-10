@@ -1,7 +1,7 @@
 if __name__ == "__main__":
 	clap = 0
 	num = input()
-	inum = int(num);
+	inum = int(num)
 	snum = "0"
 	for i in range(3,inum + 1):
 		snum = str(i)
