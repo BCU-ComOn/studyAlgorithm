@@ -1,18 +1,27 @@
+//뉴비 문제 
+
+package week03;
+
 import java.util.Scanner;
-public class bk19944_gkahsl13 {
+
+public class bj19944_kk7073 {
+	
+
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
-		int n,m;
-		n=in.nextInt();
-		m=in.nextInt();
+		int n = in.nextInt();
+		int m = in.nextInt();
 		
-		if(m<3)
+		if(m==1 || m==2) {
 			System.out.println("NEWBIE!");
-		else if(m<=n)
+		}
+		else if((m!=1 || m!=2) && n>=m) {
 			System.out.println("OLDBIE!");
-		else
+		}
+		else {
 			System.out.println("TLE!");
-		
+		}
+
 	}
 
 }
