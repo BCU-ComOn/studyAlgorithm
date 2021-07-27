@@ -1,4 +1,4 @@
-package studyalgorithm;
+package week1.커밋;
 // 과자
 import java.util.Scanner;
 
