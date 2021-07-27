@@ -1,14 +1,14 @@
 package week4.커밋;
-//초콜릿 자르기
+// 기찍 N
 import java.util.Scanner;
 
-public class bj2163_cjy {
+public class bj2742_cjy {
 
 	public static void main(String[] args) {
 		Scanner s = new Scanner(System.in);
-		int M = s.nextInt();
 		int N = s.nextInt();
-		int sum = (M * N)-1;
-		System.out.println(sum);
+		for(int i=0; i<N; i++) {
+			System.out.println(N-i);
+		}
 	}
 }

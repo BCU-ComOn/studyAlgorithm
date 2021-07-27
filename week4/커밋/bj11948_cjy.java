@@ -1,5 +1,5 @@
+package week4.커밋;
 // 과목선택
-
 import java.util.Scanner;
 
 public class bj11948_cjy {
