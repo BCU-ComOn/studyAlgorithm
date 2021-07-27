@@ -1,9 +1,10 @@
+package week2.팀4;
 
 import java.util.Scanner;
 
 import static java.lang.Math.min;
 
-public class Main {
+public class bj19698_ckh {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

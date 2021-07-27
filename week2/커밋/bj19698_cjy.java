@@ -1,4 +1,4 @@
-package studyalgorithm;
+package week2.커밋;
 //헛간 청약
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package studyalgorithm;
+package week1.커밋;
 // 카드게임
 import java.util.Scanner;
 
