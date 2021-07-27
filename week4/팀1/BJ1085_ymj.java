@@ -1,5 +1,6 @@
 import java.util.Scanner;
 public class BJ1085_ymj {
+	//4주차 3번
 
 	public static void main(String[] args) {
 		Scanner s = new Scanner(System.in);
