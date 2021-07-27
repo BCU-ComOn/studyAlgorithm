@@ -1,4 +1,4 @@
-package studyalgorithm;
+package week2.커밋;
 //쿠폰
 import java.util.Scanner;
 

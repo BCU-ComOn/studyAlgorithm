@@ -1,5 +1,5 @@
+package week4.커밋;
 //초콜릿 자르기
-
 import java.util.Scanner;
 
 public class bj2163_cjy {

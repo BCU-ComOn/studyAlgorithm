@@ -1,4 +1,4 @@
-package studyalgorithm;
+package week2.커밋;
 // 손익분기점
 import java.util.Scanner;
 

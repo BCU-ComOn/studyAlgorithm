@@ -1,3 +1,5 @@
+package week2.팀4;
+
 import java.util.Scanner;
 
 public class bj10179_jdh {

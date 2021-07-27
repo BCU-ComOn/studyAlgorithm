@@ -1,3 +1,5 @@
+package week2.팀4;
+
 import java.io.BufferedWriter;
 import java.io.OutputStreamWriter;
 import java.io.IOException;

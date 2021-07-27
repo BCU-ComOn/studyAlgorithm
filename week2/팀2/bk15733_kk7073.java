@@ -1,3 +1,5 @@
+package week2.팀2;
+
 public class bk15733_kk7073 {
 
 	public static void main(String[] args) {
