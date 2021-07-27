@@ -1,24 +1,19 @@
 //뉴비 문제 
 
-package week03;
-
 import java.util.Scanner;
 
-public class bj19944_kk7073 {
-	
+public class bj19944_cbj {
 
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
 		int n = in.nextInt();
 		int m = in.nextInt();
-		
-		if(m==1 || m==2) {
+
+		if (m == 1 || m == 2) {
 			System.out.println("NEWBIE!");
-		}
-		else if((m!=1 || m!=2) && n>=m) {
+		} else if ((m != 1 || m != 2) && n >= m) {
 			System.out.println("OLDBIE!");
-		}
-		else {
+		} else {
 			System.out.println("TLE!");
 		}
 
