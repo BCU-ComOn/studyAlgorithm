@@ -1,5 +1,6 @@
 import java.util.Scanner;
 public class BJ1284_ymj {
+	//4주차 과제 3번 집 주소
 
 	public static void main(String[] args) {
 		Scanner s = new Scanner(System.in);
