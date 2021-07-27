@@ -1,5 +1,5 @@
+package week4.커밋;
 // 직사각형에서 탈출
-
 import java.util.Scanner;
 
 public class bj1085_cjy {

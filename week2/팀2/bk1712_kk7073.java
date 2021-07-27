@@ -1,6 +1,7 @@
+package week2.팀2;
 
 import java.util.Scanner;
-public class bk17614_kk7073 {
+public class bk1712_kk7073 {
 
 	public static void main(String[] args) {
 		int fix,change,price,profit;

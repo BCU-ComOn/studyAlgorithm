@@ -1,4 +1,4 @@
-package studyalgorithm;
+package week1.커밋;
 //1998년생인 내가 태국에서는 2541년생?!
 import java.util.Scanner;
 
