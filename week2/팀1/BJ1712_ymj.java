@@ -1,6 +1,7 @@
+package week2.팀1;
+
 import java.util.Scanner;
 public class BJ1712_ymj {
-
 	public static void main(String[] args) {
 		Scanner s = new Scanner(System.in);
 		int[] num = new int[3];

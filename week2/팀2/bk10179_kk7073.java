@@ -1,5 +1,6 @@
 //쿠폰
-package Study;
+package week2.팀2;
+
 import java.util.Scanner;
 public class bk10179_kk7073 {
 

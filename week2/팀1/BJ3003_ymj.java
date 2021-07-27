@@ -1,3 +1,5 @@
+package week2.팀1;
+
 import java.util.Scanner;
 public class BJ3003_ymj {
 

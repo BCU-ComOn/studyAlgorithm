@@ -1,4 +1,4 @@
-package studyalgorithm;
+package week2.커밋;
 //킹, 퀸, 룩, 비숍, 나이트, 폰
 import java.util.Scanner;
 
