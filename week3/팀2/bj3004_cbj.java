@@ -1,16 +1,14 @@
-package week03;
-
 import java.util.Scanner;
 
-public class bj3004_kk7073 {
+public class bj3004_cbj {
 
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
 		int n = in.nextInt();
-		
-		int row = n /2 +1;
-		int col = n  - row + 2;
-		int result = row*col;
+
+		int row = n / 2 + 1;
+		int col = n - row + 2;
+		int result = row * col;
 		System.out.println(result);
 
 	}
