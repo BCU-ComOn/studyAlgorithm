@@ -1,72 +1,78 @@
-/*문제
-        상근이는 초등학교에 다닐 때, 방학 숙제를 남들보다 먼저 미리 하고 남은 기간을 놀았다.
-        방학 숙제는 수학과 국어 문제 풀기이다.
+package week1.팀4;
 
-        방학은 총 L일이다. 수학은 총 B페이지, 국어는 총 A페이지를 풀어야 한다.
-        상근이는 하루에 국어를 최대 C페이지, 수학을 최대 D페이지 풀 수 있다.
+// 문제
+//         상근이는 초등학교에 다닐 때, 방학 숙제를 남들보다 먼저 미리 하고 남은 기간을 놀았다.
+//         방학 숙제는 수학과 국어 문제 풀기이다.
 
-        상근이가 겨울 방학동안 숙제를 하지 않고 놀 수 있는 최대 날의 수를 구하는 프로그램을 작성하시오.
+//         방학은 총 L일이다. 수학은 총 B페이지, 국어는 총 A페이지를 풀어야 한다.
+//         상근이는 하루에 국어를 최대 C페이지, 수학을 최대 D페이지 풀 수 있다.
 
-        입력
-        한 줄에 하나씩 총 다섯 줄에 걸쳐 L, A, B, C, D가 주어진다.
-        (2 ≤ L ≤ 40, 1 ≤ A, B ≤ 1000, 1 ≤ C, D ≤ 100)
+//         상근이가 겨울 방학동안 숙제를 하지 않고 놀 수 있는 최대 날의 수를 구하는 프로그램을 작성하시오.
 
-        항상 방학 숙제를 방학 기간내에 다 할 수 있는 경우만 입력으로 주어진다.
+//         입력
+//         한 줄에 하나씩 총 다섯 줄에 걸쳐 L, A, B, C, D가 주어진다.
+//         (2 ≤ L ≤ 40, 1 ≤ A, B ≤ 1000, 1 ≤ C, D ≤ 100)
 
-        출력
-        첫째 줄에 상근이가 놀 수 있는 날의 최댓값을 출력한다.*/
+//         항상 방학 숙제를 방학 기간내에 다 할 수 있는 경우만 입력으로 주어진다.
+
+//         출력
+//         첫째 줄에 상근이가 놀 수 있는 날의 최댓값을 출력한다.
 
 import java.util.Scanner;
 
-public class Main {
+public class bj5532_ckh {
 
     public static void main(String[] args) {
         // TODO Auto-generated method stub
-        int L,A,B,C,D = 0;
+        int L, A, B, C, D = 0;
         int max_kor, max_math = 0;
         Scanner scanf = new Scanner(System.in);
-        //(2 ≤ L ≤ 40, 1 ≤ A, B ≤ 1000, 1 ≤ C, D ≤ 100)
+        // (2 ≤ L ≤ 40, 1 ≤ A, B ≤ 1000, 1 ≤ C, D ≤ 100)
 
         L = scanf.nextInt(); // 방학 총일수
-        if(L<2 || L>40 ) {
+        if (L < 2 || L > 40) {
             System.out.println("L : Error");
             return;
         }
 
         A = scanf.nextInt(); // 국어 총 할당량
 
-        if( A<1) {
+        if (A < 1) {
             System.out.println("A : Error ");
             return;
         }
 
         B = scanf.nextInt(); // 수학 총 할당량
 
-        if( B>1000) {
+        if (B > 1000) {
             System.out.println("B : Error");
             return;
         }
 
         C = scanf.nextInt(); // 수학 총 할당량
 
-        if( C<1) {
+        if (C < 1) {
             System.out.println("C : Error");
             return;
         }
 
         D = scanf.nextInt(); // 수학 총 할당량
 
-        if( D>100) {
+        if (D > 100) {
             System.out.println("D : Error");
             return;
         }
 
-        if(A%C==0)  max_kor =  A/C;
-        else max_kor = (A/C) + 1 ;
+        if (A % C == 0)
+            max_kor = A / C;
+        else
+            max_kor = (A / C) + 1;
 
-        if(B%D==0)  max_kor =  B/D;
-        else max_math  = (B/D) + 1 ;
-        System.out.println(L-(Math.max(max_kor,max_math)));
+        if (B % D == 0)
+            max_kor = B / D;
+        else
+            max_math = (B / D) + 1;
+        System.out.println(L - (Math.max(max_kor, max_math)));
 
     }
 
