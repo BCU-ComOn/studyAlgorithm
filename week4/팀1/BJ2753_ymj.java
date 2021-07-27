@@ -1,5 +1,6 @@
 import java.util.Scanner;
 public class BJ2753_ymj {
+	//4주차 과제 1번 윤년
 
 	public static void main(String[] args) {
 		Scanner s = new Scanner(System.in);
