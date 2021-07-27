@@ -1,6 +1,6 @@
 
 import java.util.Scanner;
-public class bk17614_jun7073 {
+public class bk17614_kk7073 {
 
 	public static void main(String[] args) {
 		int fix,change,price,profit;
