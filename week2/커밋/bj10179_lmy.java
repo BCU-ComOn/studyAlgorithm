@@ -17,5 +17,3 @@ public class bj10179_lmy {
         }
     }
 }
-    
-}
