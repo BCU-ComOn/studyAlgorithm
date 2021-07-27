@@ -5,7 +5,7 @@ public class BJ2742_ymj {
 		Scanner s = new Scanner(System.in);
 		int num = s.nextInt();
 		
-		for(int i = num; i > 0; i--) {
+		for(int i = num; i > 0; i--) { //num 부터 1까지 1행씩 출력
 			System.out.println(i);
 		}
 	}
