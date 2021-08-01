@@ -10,6 +10,6 @@ public class BJ2163_ymj {
 		}
 		
 		System.out.printf("%d", ((num[0] - 1) + num[0] * (num[1] - 1)));
-		// (n-1) + n * (m-1)
+		// (n-1) + n * (m-1)의 공식
 	}
 }
