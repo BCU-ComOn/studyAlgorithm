@@ -1,4 +1,5 @@
 //뉴비 문제 
+package week3.팀2;
 
 import java.util.Scanner;
 

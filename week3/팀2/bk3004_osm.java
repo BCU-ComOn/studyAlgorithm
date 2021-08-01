@@ -1,3 +1,5 @@
+package week3.팀2;
+
 import java.util.Scanner;
 public class bk3004_osm {
 	public static void main(String[] args) {

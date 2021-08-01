@@ -1,3 +1,5 @@
+package week3.팀2;
+
 import java.util.Scanner;
 public class bk4880_gkahsl13 {
 	public static void main(String[] args) {
