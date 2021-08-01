@@ -1,3 +1,5 @@
+package week2.팀4;
+
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.InputStreamReader;

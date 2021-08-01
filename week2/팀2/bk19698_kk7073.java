@@ -1,6 +1,7 @@
-package Study;
+package week2.팀2;
+
 import java.util.Scanner;
-public class bc19698_kk7073 {
+public class bk19698_kk7073 {
 
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
