@@ -1,7 +1,7 @@
 package week3.팀2;
 
 import java.util.Scanner;
-public class bk3004_osm {
+public class bj3004_osm {
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
 			int a;

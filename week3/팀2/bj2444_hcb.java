@@ -2,7 +2,7 @@ package week3.팀2;
 
 import java.util.Scanner;
 
-public class StarPrint {
+public class bj2444_hcb {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);

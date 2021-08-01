@@ -2,7 +2,7 @@ package week3.팀2;
 
 import java.util.Scanner;
 
-public class bk5893_hcb {
+public class bj5893_hcb {
 
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);

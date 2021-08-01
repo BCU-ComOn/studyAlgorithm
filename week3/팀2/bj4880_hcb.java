@@ -2,7 +2,7 @@ package week3.팀2;
 
 import java.util.Scanner;
 
-public class bk4880_hcb {
+public class bj4880_hcb {
 
 	public static void main(String[] args) {
 	   int a[] = new int[3];	  
