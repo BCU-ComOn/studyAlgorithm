@@ -1,3 +1,5 @@
+package week3.커밋;
+
 import java.util.Scanner;
 
 public class bj3004_lmy {

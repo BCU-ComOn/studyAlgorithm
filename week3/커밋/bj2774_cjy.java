@@ -1,4 +1,4 @@
-
+package week3.커밋;
 // 아름다운 수
 import java.util.Scanner;
 

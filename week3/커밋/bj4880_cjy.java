@@ -1,4 +1,4 @@
-
+package week3.커밋;
 // 다음수
 import java.util.Scanner;
 
