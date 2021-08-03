@@ -1,5 +1,7 @@
+package week3.팀2;
+
 import java.util.Scanner;
-public class bk5893_osm {
+public class bj5893_osm {
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
 			int a;

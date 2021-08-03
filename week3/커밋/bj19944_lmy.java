@@ -1,6 +1,8 @@
+package week3.커밋;
+
 import java.util.Scanner;
 
-class bj5893_lmy {
+class bj19944_lmy {
   public static void main(String[] args) {
     Scanner in = new Scanner(System.in);
 

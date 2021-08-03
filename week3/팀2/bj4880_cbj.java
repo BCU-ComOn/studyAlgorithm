@@ -14,6 +14,7 @@ a2 % a1 = a3 % a2 가 같으면 등비 조건2
 변수 조건1 이면 a3 + a3-a2
 변수 조건 2 이면 a3 + a3%2
 */
+package week3.팀2;
 
 import java.util.Scanner;
 

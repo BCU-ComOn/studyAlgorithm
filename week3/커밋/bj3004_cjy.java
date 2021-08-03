@@ -1,4 +1,4 @@
-
+package week3.커밋;
 // 체스판 조각
 import java.util.Scanner;
 

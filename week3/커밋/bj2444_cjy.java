@@ -1,4 +1,4 @@
-
+package week3.커밋;
 // 별찍기 - 7
 import java.util.Scanner;
 
