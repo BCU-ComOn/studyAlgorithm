@@ -1,5 +1,7 @@
+package week3.팀1;
+
 import java.util.Scanner;
-public class Week3_4 {
+public class BJ3004_ymj {
 
 	public static void main(String[] args) {
 		Scanner s = new Scanner(System.in);

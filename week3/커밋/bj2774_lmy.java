@@ -1,3 +1,5 @@
+package week3.커밋;
+
 import java.util.*;
 
 public class bj2774_lmy { 
