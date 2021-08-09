@@ -1,4 +1,4 @@
-package week05.팀2;
+package week5.팀2;
 
 import java.util.Scanner;
 
