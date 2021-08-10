@@ -1,6 +1,8 @@
+package week5.팀2;
+
 import java.util.Scanner;
 
-public class Week0511 {
+public class bj4101_hcb {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);

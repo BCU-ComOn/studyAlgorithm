@@ -1,3 +1,5 @@
+package week5.팀2;
+
 import java.util.Scanner;
 
 public class bj16486_hcb {
