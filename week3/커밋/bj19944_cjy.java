@@ -1,4 +1,4 @@
-
+package week3.커밋;
 // 뉴비의 기준은 뭘까?
 import java.util.Scanner;
 

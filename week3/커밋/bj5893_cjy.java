@@ -1,4 +1,4 @@
-
+package week3.커밋;
 // 17배
 import java.util.Scanner;
 
