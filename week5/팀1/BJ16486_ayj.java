@@ -1,3 +1,5 @@
+package week5.팀1;
+
 import java.util.Scanner;
 public class BJ16486_ayj {
 

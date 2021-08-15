@@ -1,5 +1,7 @@
+package week5.팀1;
+
 import java.util.*;
-public class Main {
+public class BJ2953_ayj {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int max = 0;

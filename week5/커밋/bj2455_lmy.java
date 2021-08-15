@@ -1,3 +1,6 @@
+package week5.커밋;
+
+import java.util.Scanner;
 import java.applet.*;
 
 public class bj2455_lmy {
