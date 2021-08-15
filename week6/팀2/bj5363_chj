@@ -1,0 +1,26 @@
+package week06.팀2;
+import java.util.Scanner;
+public class bj5363_chj {
+
+	public static void main(String[] args) {
+		Scanner in = new Scanner(System.in);
+        int num = in.nextInt();		
+        String s = in.nextLine(); // 첫문장만 미리받기.
+        String[] arr = s.split(" "); // 띄어쓰기 기준으로 배열 생성
+        for(int i=0; i<num+1; i++) { // 두번째부터 순서대로 받기
+        	s = in.nextLine();
+        	arr = s.split(" ");   	 
+		for (int j = 0; j <arr.length-2; j++) {
+			
+			System.out.print(arr[j+2]+" ");
+			// 0번 1번 인덱스 뒤로 보내기
+
+		}
+		System.out.print(arr[0]+" ");
+		System.out.print(arr[1]+"\n");
+        }
+	}
+
+	}
+
+}
