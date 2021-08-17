@@ -1,0 +1,25 @@
+package week06.팀2;
+
+import java.util.Scanner;
+
+public class bj4504_chj {
+
+	public static void main(String[] args) {
+		Scanner in = new Scanner(System.in);
+		
+		int n = in.nextInt();
+		while(true) {
+			int list =  in.nextInt();
+			if(list==0) break;
+			
+			if(list%n==0) {
+				System.out.println(list + " " + "is a multiple of" + " " + n);
+			}
+			else {
+				System.out.println(list + " " + "is NOT a multiple of" + " " + n);
+			}
+		}
+
+	}
+
+}
