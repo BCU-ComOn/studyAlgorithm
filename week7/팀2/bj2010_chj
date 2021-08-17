@@ -1,0 +1,19 @@
+package week07.팀2;
+
+import java.util.Scanner;
+
+public class bj2010_chj {
+
+	public static void main(String[] args) {
+        int sum = 0;
+		
+		Scanner in = new Scanner(System.in);
+		int cnt = in.nextInt();
+		for(int i=0; i<cnt; i++) {
+			int num = in.nextInt();
+			sum+=num;
+		}
+		System.out.println(sum-(cnt-1));
+	}
+
+}

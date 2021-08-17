@@ -1,0 +1,63 @@
+package week06.팀2;
+
+import java.util.Scanner;
+
+public class bj2476_chj {
+
+	public static void main(String[] args) {
+		Scanner in = new Scanner(System.in);
+		int n = in.nextInt(); // 주사위 몇번 돌릴 껀지
+		int a[] = new int[3]; // 주사의 한번을 담을 주사위
+		int sum[] = new int[n];  // 주사위 합을 배열로 담아놓기
+		
+		for(int i = 0; i < n; i++) {
+			for(int x =0; x<3; x++) {
+				a[x] = in.nextInt();
+			}
+			 if(a[0]==a[1] && a[1] == a[2]) {
+				 sum[i] =10000 + a[0] * 1000;
+			 }
+			 else if(a[0]==a[1] && a[1] != a[2]) {
+				 sum[i] = 1000 + a[0] * 100;
+			 }
+			 else if(a[0]!=a[1] && a[1] == a[2]) {
+				 sum[i] = 1000 + a[1] * 100;
+			 }
+			 else if(a[0]!=a[1] && a[0] == a[2]) {
+				 sum[i] = 1000 + a[0] * 100;
+			 }
+			 else {
+				 int max = 0 ;
+				 if(a[0]>a[1] && a[0]>a[2]) {
+					 max =a[0];
+				 }
+				 if(a[1]>a[0] && a[1]>a[2]) {
+					 max =a[1];
+				 }
+				 if(a[2]>a[1] && a[2]>a[0]) {
+					 max =a[2];
+				 }
+				 sum[i] = max * 100;
+			 }
+			 
+			 
+			
+			
+		}
+		int max1 = sum[0];
+		for (int z=1; z<n; z++) {
+			if(sum[z]>max1){
+				max1= sum[z];
+			}
+			
+		}
+		System.out.println(max1);
+	
+		
+		
+		
+		
+		
+	}
+
+}
