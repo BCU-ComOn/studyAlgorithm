@@ -1,0 +1,28 @@
+package week06.팀2;
+
+import java.util.Scanner;
+import java.util.Arrays; // 정렬 메소드를 활용하기 위해.
+
+public class bj2750_chj {
+
+	public static void main(String[] args) {
+		Scanner in = new Scanner(System.in);
+		
+		int n= in.nextInt();
+		int[] arr = new int[n];
+		
+		for(int i = 0 ; i < n; i++) {
+			arr[i] = in.nextInt();
+		}
+		
+		// 정렬 메소드 활용
+		
+		Arrays.sort(arr);
+		
+		for(int val : arr) { //for each 문 arr배열의 크기만큼 반복하는것.
+			System.out.println(val);
+		}
+
+	}
+
+}
